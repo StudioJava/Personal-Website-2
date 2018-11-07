@@ -60,3 +60,37 @@ body {
     opacity: 1;
   }
 }
+
+/*porfolio*/
+.thumbnail {
+	
+	background-color: #353232;
+	border-radius: 10px 10px 0px 0px;
+	
+	border-bottom: 4px solid #F44D0E;
+}
+.img-rounded {
+	border-radius: 10px 10px 0px 0px;
+}
+
+/*SCROLLING BAR*/
+ .nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
